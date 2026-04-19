@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 50px;">
+
+<h1>Your Score: {{ score }}/2</h1>
+
+{% if score == 2 %}
+    <p> suspiciously perfect. now come over bb</p>
+{% elif score == 1 %}
+    <p>get out hoe
+    <p>fuck off or jus try again.</p>
+{% endif %}
+
+<br>
+<a href="/">Try again</a>
+
+</body>
